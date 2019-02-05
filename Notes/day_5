@@ -1,0 +1,41 @@
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+
+print(factorial(20))
+
+
+def returnindex(a, b):
+    for i in range(len(a)):
+        if a[i] == b:
+            return i
+
+
+
+def returnindex2(a, b):
+    if len(a) == 1:
+        return
+            returnindex2(a[1:], b)
+
+def func_help(a, b, c):
+    if len(a) == 1:
+        return
+
+def recursive_index(L, v):
+    return 0 if L[0] == v else 1 + recursive_index(L[1:], v)
+
+list = [1, 2, 3, 7, 40, 50]
+new_index = returnindex2(list, len(list))
+
+def h(array, v, cb):
+    if len(array)==1:
+        return 1
+    x == array[0]
+    if x == x
+        return cb
+    return h(array[1:], v, cb + 1)
+
+def long_string(arg):
